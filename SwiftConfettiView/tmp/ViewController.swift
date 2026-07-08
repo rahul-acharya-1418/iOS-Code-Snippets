@@ -3,35 +3,6 @@
 //  tmp
 //
 //  Created by Rahul Acharya on 03/07/26.
-////
-//
-//import UIKit
-//import SwiftConfettiView
-//
-//class ViewController: UIViewController {
-//    
-//    private var confettiView: SwiftConfettiView?
-//    
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        // Do any additional setup after loading the view.
-//    }
-//    
-//    @IBAction func buttonTap(_ sender: UIButton) {
-//        // Remove previous one if it exists
-//        confettiView?.removeFromSuperview()
-//        
-//        let confetti = SwiftConfettiView(frame: view.bounds)
-//        confetti.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-//        
-//        view.addSubview(confetti)
-//        confetti.applyPreset(.perfect)
-//        confetti.playSound = true
-//        confetti.startConfetti()
-//        confettiView = confetti
-//    }
-//}
-//
 
 import UIKit
 import SwiftConfettiView

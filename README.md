@@ -8,13 +8,14 @@ A collection of small, practical iOS code examples and reusable Swift snippets.
 
 Demonstrates **AES-256-CBC** encryption and decryption using the **CryptoSwift** library with a backend-provided **Secret Key** and **IV**.
 
-**Repository**
+## 2.0 SwiftConfettiView
 
-* https://github.com/krzyzanowskim/CryptoSwift
+**Description**
 
-**Example Includes**
+Demonstrates how to integrate and use the **SwiftConfettiView** library to display customizable confetti animations for celebrations, achievements, and success events in an iOS application.
 
-* Encrypt a Swift `Codable` model (JSON) to a Base64 string.
-* Decrypt a Base64 string back to a Swift `Codable` model (JSON).
-* AES-256-CBC encryption using a backend-provided Secret Key and IV.
-* End-to-end compatibility between iOS and the backend.
+## 3.0 SwiftFortuneWheel
+
+**Description**
+
+Demonstrates how to integrate and use the **SwiftFortuneWheel** library to create a fully customizable spinning wheel (fortune wheel) with dynamic content, animations, sound effects, and haptic feedback for games, rewards, and lucky draw features.
