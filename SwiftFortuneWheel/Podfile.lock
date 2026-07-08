@@ -1,0 +1,16 @@
+PODS:
+  - SwiftFortuneWheel (1.4.4)
+
+DEPENDENCIES:
+  - SwiftFortuneWheel
+
+SPEC REPOS:
+  trunk:
+    - SwiftFortuneWheel
+
+SPEC CHECKSUMS:
+  SwiftFortuneWheel: f69e99359cdef05bad3aa3d1db297bd3da8d324c
+
+PODFILE CHECKSUM: 5ccfa20b1cd4c50484e75f83312175c64170302f
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,16 @@
+PODS:
+  - SwiftConfettiView (2.0.0)
+
+DEPENDENCIES:
+  - SwiftConfettiView
+
+SPEC REPOS:
+  trunk:
+    - SwiftConfettiView
+
+SPEC CHECKSUMS:
+  SwiftConfettiView: 46ab15ee65ec09dcd3e47295c4f1d2df28999408
+
+PODFILE CHECKSUM: bcfe86a5d5df61148f1a9e5ecd120e76d1fa95b5
+
+COCOAPODS: 1.16.2

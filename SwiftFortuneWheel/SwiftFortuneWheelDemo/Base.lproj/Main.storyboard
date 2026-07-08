@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftFortuneWheelDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fxV-EF-rP4">
+                                <rect key="frame" x="46.666666666666657" y="158" width="300" height="300"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Edm-k7-0sX" customClass="SwiftFortuneWheel" customModule="SwiftFortuneWheel">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTP-FT-zWH">
+                                        <rect key="frame" x="90" y="90" width="120" height="120"/>
+                                        <color key="backgroundColor" red="0.18039217591285706" green="0.18039217591285706" blue="0.18039217591285706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="RTP-FT-zWH" secondAttribute="height" id="Zei-CJ-s6c"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="RTP-FT-zWH" firstAttribute="centerY" secondItem="fxV-EF-rP4" secondAttribute="centerY" id="3UH-p2-Qpp"/>
+                                    <constraint firstItem="RTP-FT-zWH" firstAttribute="centerX" secondItem="fxV-EF-rP4" secondAttribute="centerX" id="3xe-o3-0qx"/>
+                                    <constraint firstAttribute="bottom" secondItem="Edm-k7-0sX" secondAttribute="bottom" id="6JC-l2-s3p"/>
+                                    <constraint firstAttribute="width" secondItem="fxV-EF-rP4" secondAttribute="height" multiplier="1:1" id="ATo-s3-DWG"/>
+                                    <constraint firstItem="Edm-k7-0sX" firstAttribute="top" secondItem="fxV-EF-rP4" secondAttribute="top" id="Ihr-0e-mRE"/>
+                                    <constraint firstItem="RTP-FT-zWH" firstAttribute="width" secondItem="fxV-EF-rP4" secondAttribute="width" multiplier="0.4" id="XsY-f0-ehi"/>
+                                    <constraint firstAttribute="trailing" secondItem="Edm-k7-0sX" secondAttribute="trailing" id="Z5g-ZB-nSo"/>
+                                    <constraint firstItem="Edm-k7-0sX" firstAttribute="leading" secondItem="fxV-EF-rP4" secondAttribute="leading" id="pYu-xd-jhj"/>
+                                    <constraint firstAttribute="width" constant="300" id="poE-op-jjt"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMM-E4-pfg">
+                                <rect key="frame" x="121.66666666666669" y="498" width="150" height="40"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="89e-sr-Gjn"/>
+                                    <constraint firstAttribute="width" constant="150" id="fDE-ZA-0sc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Rotate">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="rotateTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wAo-xB-n14"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.18039217591285706" green="0.18039217591285706" blue="0.18039217591285706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fxV-EF-rP4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PXt-B2-IFy"/>
+                            <constraint firstItem="EMM-E4-pfg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mRO-Hn-TFZ"/>
+                            <constraint firstItem="fxV-EF-rP4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="v3b-Ik-gs8"/>
+                            <constraint firstItem="EMM-E4-pfg" firstAttribute="top" secondItem="fxV-EF-rP4" secondAttribute="bottom" constant="40" id="xT8-nZ-abT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="centerView" destination="RTP-FT-zWH" id="38o-kk-5tX"/>
+                        <outlet property="wheelControl" destination="Edm-k7-0sX" id="NIN-Uq-kb5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18" y="71"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemCyanColor">
+            <color red="0.0" green="0.75294117647058822" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
