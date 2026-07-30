@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055D293EC31CC1F2DBF12E7C548E44CB /* CHIPageControlJalapeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92810E5AABE24B861617C9F544D88D3A /* CHIPageControlJalapeno.swift */; };
+		06CF48172CD60AD0E344E878CC357EA9 /* CHIPageControlPuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E852AE87B33313CA0D404670D5F1C4 /* CHIPageControlPuya.swift */; };
+		35CEAF661605D7A0C71440540FD65F08 /* CHIPageControlChimayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC8708B37E99ABA315EC0B14337CC4 /* CHIPageControlChimayo.swift */; };
+		3DDE476D5DE59B092E80E095E1309D7C /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD72C56BF64F6C1DEC16B2043128894 /* CHIPageControlJaloro.swift */; };
+		4ED3C3008C7BB416102E71082BF377B5 /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3347B673F4917F2219D2D754E70094 /* CHIPageControlPaprika.swift */; };
+		5A096D0B105EE15A0617B0FEB56B396B /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F10CED426F150D67BCA0EA1CCF071D9 /* CHIPageControlFresno.swift */; };
+		69AF7874D8690279006DBD5C479B8DCA /* Pods-PageControlDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DDFCD12AA54300CA3B72E13ACCD84B /* Pods-PageControlDemo-dummy.m */; };
+		8A0CC27257FB5C926ADD63BCC02C5F74 /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7538CA8DF0F3D487F838BE86A538994A /* CHIPageControllable.swift */; };
+		8A2C89703CDBAA72950130E6FC5826EA /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3CDAB8786E308C521FC4E63278A750 /* CHILayer.swift */; };
+		8E74BF1C37218CCB8EB9A31C8CC7BB8A /* Pods-PageControlDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0EDE122F8C88881C9ABD1E2595F7B7 /* Pods-PageControlDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		957995B43A353994C52C2F09DD76D83D /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC0E6F01297F9005BDF7629F7ED171 /* CHIBasePageControl.swift */; };
+		BCAD37A56048719229398DF5543D0120 /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC6B34844F78CFADE8D2AB46D515B1 /* CHIPageControlAleppo.swift */; };
+		BDD1565395B168D73D0505D36834CD8C /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48AE03B7FE80D198B0E14B6B03C576F /* CHIPageControlAji.swift */; };
+		D2EBE5283D26EF869C9E0F631F654FA5 /* CHIPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FF46EE3CB18BAA90F741E3032CA6FF /* CHIPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4959E6C8D8ECCDB33661DD32E8522B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		E8D228F6A4B95604F07DE00DE2690DBA /* CHIPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AADA4CF5E412F1F47282D44303D52E02 /* CHIPageControl-dummy.m */; };
+		EC96CCB539280E3F4BDB61AFBC7E744E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC117782DEF35D3BB3E75A8EA6FE7B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58A7AC722D45BA5EF49F00D98C86978B;
+			remoteInfo = CHIPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0EDE122F8C88881C9ABD1E2595F7B7 /* Pods-PageControlDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PageControlDemo-umbrella.h"; sourceTree = "<group>"; };
+		19BC55AC367C05AC5C4DB8ECAAC60114 /* Pods-PageControlDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PageControlDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21DC6B34844F78CFADE8D2AB46D515B1 /* CHIPageControlAleppo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAleppo.swift; path = CHIPageControl/CHIPageControlAleppo.swift; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D13B59E84F151DC968126B720E487EF /* Pods-PageControlDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PageControlDemo-frameworks.sh"; sourceTree = "<group>"; };
+		48F2C73A2E48FFBABE2528BF7EBC593C /* Pods-PageControlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PageControlDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHIPageControl; path = CHIPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F10CED426F150D67BCA0EA1CCF071D9 /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlFresno.swift; path = CHIPageControl/CHIPageControlFresno.swift; sourceTree = "<group>"; };
+		5E3CDAB8786E308C521FC4E63278A750 /* CHILayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHILayer.swift; path = CHIPageControl/Core/CHILayer.swift; sourceTree = "<group>"; };
+		61C3309606911FD056DED115639DF3AF /* Pods-PageControlDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PageControlDemo"; path = Pods_PageControlDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		660FF1AA683302D0C6B59B5ABCC53020 /* CHIPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHIPageControl.modulemap; sourceTree = "<group>"; };
+		66FF46EE3CB18BAA90F741E3032CA6FF /* CHIPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-umbrella.h"; sourceTree = "<group>"; };
+		6F944AC2B44E402A325C4958FA6A4847 /* Pods-PageControlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PageControlDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7538CA8DF0F3D487F838BE86A538994A /* CHIPageControllable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControllable.swift; path = CHIPageControl/Core/CHIPageControllable.swift; sourceTree = "<group>"; };
+		75563674C0C5D45A7E363D7FF27203A5 /* Pods-PageControlDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PageControlDemo.modulemap"; sourceTree = "<group>"; };
+		90E852AE87B33313CA0D404670D5F1C4 /* CHIPageControlPuya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPuya.swift; path = CHIPageControl/CHIPageControlPuya.swift; sourceTree = "<group>"; };
+		92810E5AABE24B861617C9F544D88D3A /* CHIPageControlJalapeno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJalapeno.swift; path = CHIPageControl/CHIPageControlJalapeno.swift; sourceTree = "<group>"; };
+		95BA8DB77B423B0C467F9BD384ED35B7 /* Pods-PageControlDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PageControlDemo-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AADA4CF5E412F1F47282D44303D52E02 /* CHIPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHIPageControl-dummy.m"; sourceTree = "<group>"; };
+		B2AE7C6B2430D3137E1131E5CC5D22BC /* CHIPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-prefix.pch"; sourceTree = "<group>"; };
+		C48AE03B7FE80D198B0E14B6B03C576F /* CHIPageControlAji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAji.swift; path = CHIPageControl/CHIPageControlAji.swift; sourceTree = "<group>"; };
+		CC3347B673F4917F2219D2D754E70094 /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPaprika.swift; path = CHIPageControl/CHIPageControlPaprika.swift; sourceTree = "<group>"; };
+		CEFC8708B37E99ABA315EC0B14337CC4 /* CHIPageControlChimayo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlChimayo.swift; path = CHIPageControl/CHIPageControlChimayo.swift; sourceTree = "<group>"; };
+		CF90C09E5BF490E7D6DD01BBB8FF11D4 /* CHIPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.release.xcconfig; sourceTree = "<group>"; };
+		D3DDFCD12AA54300CA3B72E13ACCD84B /* Pods-PageControlDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PageControlDemo-dummy.m"; sourceTree = "<group>"; };
+		DCD72C56BF64F6C1DEC16B2043128894 /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJaloro.swift; path = CHIPageControl/CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		DFAC0E6F01297F9005BDF7629F7ED171 /* CHIBasePageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIBasePageControl.swift; path = CHIPageControl/Core/CHIBasePageControl.swift; sourceTree = "<group>"; };
+		EDF729F3157F9B7DEF29A870EBF75FB2 /* CHIPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.debug.xcconfig; sourceTree = "<group>"; };
+		F05F1C667BAFE194FDA07A8DCA3EA36E /* CHIPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHIPageControl-Info.plist"; sourceTree = "<group>"; };
+		F1A000932379BB86F66F5DAD77EE2E9E /* Pods-PageControlDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PageControlDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7429D3629CD1FA945FEC09A39E9D8FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4959E6C8D8ECCDB33661DD32E8522B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF794E3B7A75B0C00DF9C7D7F8A1AFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC96CCB539280E3F4BDB61AFBC7E744E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB54850181AD0EE785BD641777B2D84 /* Aleppo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Aleppo;
+			sourceTree = "<group>";
+		};
+		23EAC8C7913B26B1E0779E986D77CCF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl */,
+				61C3309606911FD056DED115639DF3AF /* Pods-PageControlDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		250A43C52BAFE2D5DA1B98C7F07FFD29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				660FF1AA683302D0C6B59B5ABCC53020 /* CHIPageControl.modulemap */,
+				AADA4CF5E412F1F47282D44303D52E02 /* CHIPageControl-dummy.m */,
+				F05F1C667BAFE194FDA07A8DCA3EA36E /* CHIPageControl-Info.plist */,
+				B2AE7C6B2430D3137E1131E5CC5D22BC /* CHIPageControl-prefix.pch */,
+				66FF46EE3CB18BAA90F741E3032CA6FF /* CHIPageControl-umbrella.h */,
+				EDF729F3157F9B7DEF29A870EBF75FB2 /* CHIPageControl.debug.xcconfig */,
+				CF90C09E5BF490E7D6DD01BBB8FF11D4 /* CHIPageControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHIPageControl";
+			sourceTree = "<group>";
+		};
+		6DF60554E3A81575B5190EC62D46B312 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD928619F4FF765846CA36C9F07E2069 /* Pods-PageControlDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A59A47294D08A923D7ED34328D958C8 /* Aji */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Aji;
+			sourceTree = "<group>";
+		};
+		A8BEA81C435B3551987AF77533101BEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D242367B4FD2DACE66540F0A6E7B8A /* CHIPageControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD928619F4FF765846CA36C9F07E2069 /* Pods-PageControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				75563674C0C5D45A7E363D7FF27203A5 /* Pods-PageControlDemo.modulemap */,
+				19BC55AC367C05AC5C4DB8ECAAC60114 /* Pods-PageControlDemo-acknowledgements.markdown */,
+				F1A000932379BB86F66F5DAD77EE2E9E /* Pods-PageControlDemo-acknowledgements.plist */,
+				D3DDFCD12AA54300CA3B72E13ACCD84B /* Pods-PageControlDemo-dummy.m */,
+				3D13B59E84F151DC968126B720E487EF /* Pods-PageControlDemo-frameworks.sh */,
+				95BA8DB77B423B0C467F9BD384ED35B7 /* Pods-PageControlDemo-Info.plist */,
+				0B0EDE122F8C88881C9ABD1E2595F7B7 /* Pods-PageControlDemo-umbrella.h */,
+				6F944AC2B44E402A325C4958FA6A4847 /* Pods-PageControlDemo.debug.xcconfig */,
+				48F2C73A2E48FFBABE2528BF7EBC593C /* Pods-PageControlDemo.release.xcconfig */,
+			);
+			name = "Pods-PageControlDemo";
+			path = "Target Support Files/Pods-PageControlDemo";
+			sourceTree = "<group>";
+		};
+		B9DD94BA96EFA7AFF45554F6124524A9 /* Fresno */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fresno;
+			sourceTree = "<group>";
+		};
+		BB610A390D07E2FC753D3ACB19A5D25E /* Jalapeno */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Jalapeno;
+			sourceTree = "<group>";
+		};
+		BE1C069EE342E7C3E3EA99CBC5B5A6AC /* Puya */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Puya;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A8BEA81C435B3551987AF77533101BEF /* Pods */,
+				23EAC8C7913B26B1E0779E986D77CCF4 /* Products */,
+				6DF60554E3A81575B5190EC62D46B312 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D342B6B2C98CCFB60029A1FDD327522B /* Chimayo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chimayo;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4D242367B4FD2DACE66540F0A6E7B8A /* CHIPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC0E6F01297F9005BDF7629F7ED171 /* CHIBasePageControl.swift */,
+				5E3CDAB8786E308C521FC4E63278A750 /* CHILayer.swift */,
+				C48AE03B7FE80D198B0E14B6B03C576F /* CHIPageControlAji.swift */,
+				21DC6B34844F78CFADE8D2AB46D515B1 /* CHIPageControlAleppo.swift */,
+				CEFC8708B37E99ABA315EC0B14337CC4 /* CHIPageControlChimayo.swift */,
+				4F10CED426F150D67BCA0EA1CCF071D9 /* CHIPageControlFresno.swift */,
+				92810E5AABE24B861617C9F544D88D3A /* CHIPageControlJalapeno.swift */,
+				DCD72C56BF64F6C1DEC16B2043128894 /* CHIPageControlJaloro.swift */,
+				7538CA8DF0F3D487F838BE86A538994A /* CHIPageControllable.swift */,
+				CC3347B673F4917F2219D2D754E70094 /* CHIPageControlPaprika.swift */,
+				90E852AE87B33313CA0D404670D5F1C4 /* CHIPageControlPuya.swift */,
+				7A59A47294D08A923D7ED34328D958C8 /* Aji */,
+				0FB54850181AD0EE785BD641777B2D84 /* Aleppo */,
+				D342B6B2C98CCFB60029A1FDD327522B /* Chimayo */,
+				B9DD94BA96EFA7AFF45554F6124524A9 /* Fresno */,
+				BB610A390D07E2FC753D3ACB19A5D25E /* Jalapeno */,
+				F97C7FFA47FC515BE26F281F9BACB3CB /* Jaloro */,
+				FF692BF9ED60A191A81F5FBBA899E6B6 /* Paprika */,
+				BE1C069EE342E7C3E3EA99CBC5B5A6AC /* Puya */,
+				250A43C52BAFE2D5DA1B98C7F07FFD29 /* Support Files */,
+			);
+			name = CHIPageControl;
+			path = CHIPageControl;
+			sourceTree = "<group>";
+		};
+		F97C7FFA47FC515BE26F281F9BACB3CB /* Jaloro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Jaloro;
+			sourceTree = "<group>";
+		};
+		FF692BF9ED60A191A81F5FBBA899E6B6 /* Paprika */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Paprika;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		144F6A2876B99E93AFBE5996B921151A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E74BF1C37218CCB8EB9A31C8CC7BB8A /* Pods-PageControlDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61EAF22447CEF162D3EF3E4A771C606 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EBE5283D26EF869C9E0F631F654FA5 /* CHIPageControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15712227EE5C8287B5FB6902DB34E0BD /* Build configuration list for PBXNativeTarget "CHIPageControl" */;
+			buildPhases = (
+				B61EAF22447CEF162D3EF3E4A771C606 /* Headers */,
+				B1C2F74520C7B927C40CC96F394E5DFE /* Sources */,
+				7429D3629CD1FA945FEC09A39E9D8FD7 /* Frameworks */,
+				5BDD4E85C28CB495E5A9930FDB90F12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHIPageControl;
+			productName = CHIPageControl;
+			productReference = 4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D512D0B378C2155379C319C21740487 /* Pods-PageControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E043D9AC9CF2F9F6E99BAED6AD28E83 /* Build configuration list for PBXNativeTarget "Pods-PageControlDemo" */;
+			buildPhases = (
+				144F6A2876B99E93AFBE5996B921151A /* Headers */,
+				7BA401141167B91974B1E712379E03F0 /* Sources */,
+				CF794E3B7A75B0C00DF9C7D7F8A1AFC7 /* Frameworks */,
+				063B2020361E6BE091438AA46EFEC009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2BBCC71D1F5B39699F0BEF64A6AB96 /* PBXTargetDependency */,
+			);
+			name = "Pods-PageControlDemo";
+			productName = Pods_PageControlDemo;
+			productReference = 61C3309606911FD056DED115639DF3AF /* Pods-PageControlDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 23EAC8C7913B26B1E0779E986D77CCF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */,
+				9D512D0B378C2155379C319C21740487 /* Pods-PageControlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		063B2020361E6BE091438AA46EFEC009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BDD4E85C28CB495E5A9930FDB90F12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA401141167B91974B1E712379E03F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AF7874D8690279006DBD5C479B8DCA /* Pods-PageControlDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C2F74520C7B927C40CC96F394E5DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957995B43A353994C52C2F09DD76D83D /* CHIBasePageControl.swift in Sources */,
+				8A2C89703CDBAA72950130E6FC5826EA /* CHILayer.swift in Sources */,
+				E8D228F6A4B95604F07DE00DE2690DBA /* CHIPageControl-dummy.m in Sources */,
+				BDD1565395B168D73D0505D36834CD8C /* CHIPageControlAji.swift in Sources */,
+				BCAD37A56048719229398DF5543D0120 /* CHIPageControlAleppo.swift in Sources */,
+				35CEAF661605D7A0C71440540FD65F08 /* CHIPageControlChimayo.swift in Sources */,
+				5A096D0B105EE15A0617B0FEB56B396B /* CHIPageControlFresno.swift in Sources */,
+				055D293EC31CC1F2DBF12E7C548E44CB /* CHIPageControlJalapeno.swift in Sources */,
+				3DDE476D5DE59B092E80E095E1309D7C /* CHIPageControlJaloro.swift in Sources */,
+				8A0CC27257FB5C926ADD63BCC02C5F74 /* CHIPageControllable.swift in Sources */,
+				4ED3C3008C7BB416102E71082BF377B5 /* CHIPageControlPaprika.swift in Sources */,
+				06CF48172CD60AD0E344E878CC357EA9 /* CHIPageControlPuya.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC2BBCC71D1F5B39699F0BEF64A6AB96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHIPageControl;
+			target = 58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */;
+			targetProxy = BC117782DEF35D3BB3E75A8EA6FE7B7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048313B90B5217367EF284D437EF732B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F2C73A2E48FFBABE2528BF7EBC593C /* Pods-PageControlDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PageControlDemo/Pods-PageControlDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PageControlDemo/Pods-PageControlDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E35793412A9D447CE4BE2C3D16A8D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5727B7B9A392AB4E9BE8B188ED06D9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F944AC2B44E402A325C4958FA6A4847 /* Pods-PageControlDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PageControlDemo/Pods-PageControlDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PageControlDemo/Pods-PageControlDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99BE1396BE304BC21C2B2B2C22D921B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF90C09E5BF490E7D6DD01BBB8FF11D4 /* CHIPageControl.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/CHIPageControl/CHIPageControl-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/CHIPageControl/CHIPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHIPageControl/CHIPageControl.modulemap";
+				PRODUCT_MODULE_NAME = CHIPageControl;
+				PRODUCT_NAME = CHIPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D040FC68998DBA07FF9A13CA311F1BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF729F3157F9B7DEF29A870EBF75FB2 /* CHIPageControl.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/CHIPageControl/CHIPageControl-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/CHIPageControl/CHIPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHIPageControl/CHIPageControl.modulemap";
+				PRODUCT_MODULE_NAME = CHIPageControl;
+				PRODUCT_NAME = CHIPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E36870501682BA8E080A6758CF0785D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15712227EE5C8287B5FB6902DB34E0BD /* Build configuration list for PBXNativeTarget "CHIPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D040FC68998DBA07FF9A13CA311F1BD2 /* Debug */,
+				99BE1396BE304BC21C2B2B2C22D921B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E043D9AC9CF2F9F6E99BAED6AD28E83 /* Build configuration list for PBXNativeTarget "Pods-PageControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5727B7B9A392AB4E9BE8B188ED06D9FE /* Debug */,
+				048313B90B5217367EF284D437EF732B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E35793412A9D447CE4BE2C3D16A8D6B /* Debug */,
+				E36870501682BA8E080A6758CF0785D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5VN-RB-nQc">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="542-89-FBv">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5VN-RB-nQc" customClass="ViewController" customModule="PageControlDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sIG-Uc-d82">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VuX-Xp-gkG">
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="xCF-uc-D5B">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ybm-Hm-DLV" customClass="CHIPageControlAleppo" customModule="CHIPageControl">
+                                <rect key="frame" x="76.666666666666686" y="606" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="51f-Ta-Hza"/>
+                                    <constraint firstAttribute="width" constant="240" id="d2p-bh-ier"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vi3-UD-Jhd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vi3-UD-Jhd" firstAttribute="bottom" secondItem="VuX-Xp-gkG" secondAttribute="bottom" id="5Kd-r2-R1U"/>
+                            <constraint firstItem="VuX-Xp-gkG" firstAttribute="leading" secondItem="Vi3-UD-Jhd" secondAttribute="leading" id="6TY-bt-PUz"/>
+                            <constraint firstItem="Vi3-UD-Jhd" firstAttribute="trailing" secondItem="VuX-Xp-gkG" secondAttribute="trailing" id="9oO-hY-sWl"/>
+                            <constraint firstItem="Vi3-UD-Jhd" firstAttribute="bottom" secondItem="ybm-Hm-DLV" secondAttribute="bottom" constant="50" id="Lyp-g2-bnW"/>
+                            <constraint firstItem="VuX-Xp-gkG" firstAttribute="top" secondItem="Vi3-UD-Jhd" secondAttribute="top" id="h9b-du-rx0"/>
+                            <constraint firstItem="ybm-Hm-DLV" firstAttribute="centerX" secondItem="sIG-Uc-d82" secondAttribute="centerX" id="iqs-Ty-0qL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="VuX-Xp-gkG" id="cfF-lp-ao2"/>
+                        <outlet property="pgcontrol" destination="ybm-Hm-DLV" id="Lw5-52-da9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r3f-rc-R3q" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2" y="71"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

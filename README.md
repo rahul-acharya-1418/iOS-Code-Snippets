@@ -19,3 +19,9 @@ Demonstrates how to integrate and use the **SwiftConfettiView** library to displ
 **Description**
 
 Demonstrates how to integrate and use the **SwiftFortuneWheel** library to create a fully customizable spinning wheel (fortune wheel) with dynamic content, animations, sound effects, and haptic feedback for games, rewards, and lucky draw features.
+
+## 4.0 CHIPageControl
+
+**Description**
+
+A set of beautiful animated page controls written in Swift that can be used as a replacement for the default `UIPageControl`.
