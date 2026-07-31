@@ -25,3 +25,14 @@ Demonstrates how to integrate and use the **SwiftFortuneWheel** library to creat
 **Description**
 
 A set of beautiful animated page controls written in Swift that can be used as a replacement for the default `UIPageControl`.
+
+## 5.0 Login Demo
+
+**Description**
+
+A Custom class for 
+   - Email, Password TextField
+   - SignIn, Login and Guest Buttons
+   - Title and Descritpion Label
+   - Gradient Views
+- Create custom splash view
