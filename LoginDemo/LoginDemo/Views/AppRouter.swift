@@ -22,7 +22,7 @@ final class AppRouter {
     }
 
     static func setStartRoot() {
-        let viewController = AppStoryboard.main.instantiateViewController(ViewController.self)
+        let viewController = AppStoryboard.main.instantiateViewController(StartViewController.self)
         let navigationController = UINavigationController(rootViewController: viewController)
         navigationController.isNavigationBarHidden = true
         window?.rootViewController = navigationController

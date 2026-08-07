@@ -36,3 +36,10 @@ A Custom class for
    - Title and Descritpion Label
    - Gradient Views
 - Create custom splash view
+
+# 6.0 KeyboardManagerDemo
+
+**Description**
+
+- How to use Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView
+

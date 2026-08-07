@@ -120,8 +120,91 @@
             </objects>
             <point key="canvasLocation" x="18" y="71"/>
         </scene>
+        <!--Start View Controller-->
+        <scene sceneID="zWT-yG-bEz">
+            <objects>
+                <viewController storyboardIdentifier="StartViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fMG-fa-oHa" customClass="StartViewController" customModule="LoginDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PTU-LI-hH7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="srJ-kh-vaM">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcS-0W-Yp3">
+                                <rect key="frame" x="20" y="138" width="353" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="By signing up, you agree to our Terms &amp; Conditions. See how we use your data in our Privacy Policy. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IVz-bU-T14">
+                                <rect key="frame" x="40" y="534" width="313" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Eqb-n9-nJE"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" flightNumber="YES"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="l0S-kQ-EPJ">
+                                <rect key="frame" x="20" y="614" width="353" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fq-Xj-xdx" customClass="AppButton" customModule="LoginDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="nnb-CS-dTk"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Sign In"/>
+                                        <connections>
+                                            <action selector="signInButtonTapped:" destination="fMG-fa-oHa" eventType="touchUpInside" id="a7m-3s-Dic"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eI2-WJ-YTq" customClass="AppButton" customModule="LoginDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="90" width="353" height="60"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Continue as Guest"/>
+                                        <connections>
+                                            <action selector="createButtonTapped:" destination="fMG-fa-oHa" eventType="touchUpInside" id="OjG-qt-7nH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bSy-kC-GFj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bSy-kC-GFj" firstAttribute="trailing" secondItem="IVz-bU-T14" secondAttribute="trailing" constant="40" id="3Jl-2B-Yug"/>
+                            <constraint firstItem="ZcS-0W-Yp3" firstAttribute="top" secondItem="bSy-kC-GFj" secondAttribute="top" constant="20" id="4eK-pY-R3I"/>
+                            <constraint firstAttribute="bottom" secondItem="srJ-kh-vaM" secondAttribute="bottom" id="9GO-5L-Pfg"/>
+                            <constraint firstItem="l0S-kQ-EPJ" firstAttribute="top" secondItem="IVz-bU-T14" secondAttribute="bottom" constant="10" id="Dlb-GK-llc"/>
+                            <constraint firstItem="ZcS-0W-Yp3" firstAttribute="leading" secondItem="bSy-kC-GFj" secondAttribute="leading" constant="20" id="KBh-jk-LRC"/>
+                            <constraint firstItem="l0S-kQ-EPJ" firstAttribute="leading" secondItem="bSy-kC-GFj" secondAttribute="leading" constant="20" id="KZn-Rw-zc9"/>
+                            <constraint firstAttribute="trailing" secondItem="srJ-kh-vaM" secondAttribute="trailing" id="NaU-Yf-U4l"/>
+                            <constraint firstItem="bSy-kC-GFj" firstAttribute="bottom" secondItem="l0S-kQ-EPJ" secondAttribute="bottom" constant="20" id="SOg-vl-4gV"/>
+                            <constraint firstItem="srJ-kh-vaM" firstAttribute="top" secondItem="PTU-LI-hH7" secondAttribute="top" id="Z5U-kc-POC"/>
+                            <constraint firstItem="srJ-kh-vaM" firstAttribute="leading" secondItem="PTU-LI-hH7" secondAttribute="leading" id="ZLD-a6-gNq"/>
+                            <constraint firstItem="bSy-kC-GFj" firstAttribute="trailing" secondItem="l0S-kQ-EPJ" secondAttribute="trailing" constant="20" id="eTI-5O-YG7"/>
+                            <constraint firstItem="bSy-kC-GFj" firstAttribute="trailing" secondItem="ZcS-0W-Yp3" secondAttribute="trailing" constant="20" id="kWj-cM-Wa7"/>
+                            <constraint firstItem="IVz-bU-T14" firstAttribute="leading" secondItem="bSy-kC-GFj" secondAttribute="leading" constant="40" id="mHm-Zm-Xgv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="createButton" destination="4Fq-Xj-xdx" id="m8O-jB-hw2"/>
+                        <outlet property="privacyTextView" destination="IVz-bU-T14" id="9uA-eF-TjV"/>
+                        <outlet property="signInButton" destination="eI2-WJ-YTq" id="6Yg-kx-ev9"/>
+                        <outlet property="titleLabel" destination="ZcS-0W-Yp3" id="ppc-yb-x5x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhJ-CU-Z5x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="764" y="70"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="welcome" width="2005.3333740234375" height="1338.6666259765625"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
