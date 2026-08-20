@@ -74,3 +74,11 @@ A Custom class for
 - Composite layout
 - Section Layout
 - UICollectionViewLayout (epg)
+
+---
+
+# 9.0 Tabbar demo
+
+**Description**
+
+How to create tabbar using storboard and set root view controller
