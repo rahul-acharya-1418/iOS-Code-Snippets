@@ -82,3 +82,11 @@ A Custom class for
 **Description**
 
 How to create tabbar using storboard and set root view controller
+
+
+# 10.0 Pagination Demo
+
+**Description**
+
+How to create infinite pagination in ios swit
+
