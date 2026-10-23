@@ -17,6 +17,7 @@ class ViewController: UIViewController {
          - Composite layout ()
          - Section Layout
          - UICollectionViewLayout (epg)
+         - Netflix home view
          */
     }
 }

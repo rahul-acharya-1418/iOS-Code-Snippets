@@ -34,6 +34,8 @@ class NetflixHomeViewController: UIViewController {
         ]
         collectionView.delegate = self
         collectionView.dataSource = self
+        /// UIKit not to automatically adjust the collection view's content insets to account for the Safe Area
+        collectionView.contentInsetAdjustmentBehavior = .never
         collectionView.setCollectionViewLayout(
             makeCollectionViewLayout(),
             animated: false
