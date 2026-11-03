@@ -42,4 +42,12 @@ extension TheBasicsViewController {
         
         var x = 0.0, y = 0.0, z = 0.0
     }
+    
+    func asdf() {
+        /// Variable, Constant, Static
+        var str = "Hello World"
+        var x = 4
+        var y = 1
+        let z = 3
+    }
 }
