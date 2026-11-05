@@ -12,7 +12,7 @@ class TheBasicsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "TheBasics"
-        /// `In Progress`: https://docs.swift.org/latest/documentation/the-swift-programming-language/thebasics/#Comments
+        /// `In Progress`: https://docs.swift.org/latest/documentation/the-swift-programming-language/thebasics/#Integer-Bounds
     }
 }
 
@@ -97,4 +97,28 @@ extension TheBasicsViewController {
         print("B")
 
     }
+}
+
+// MARK: - Comments
+extension TheBasicsViewController {
+    /// Use comments to include nonexecutable text in your code, as a `note` or `reminder` to yourself
+    func comments() {
+        // first ex for comment
+        
+        /*
+         Multi line exaple of comment
+         */
+        
+        /* This is the start of the first multiline comment.
+            /* This is the second, nested multiline comment. */
+        This is the end of the first multiline comment. */
+    }
+    
+    /// write multiple separate statements on a single line:
+    func semicolons(){
+        let cat = "🐱"; print(cat)
+        // Prints "🐱".
+    }
+    
+    
 }
